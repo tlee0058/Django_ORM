@@ -1,0 +1,49 @@
+.class {
+    width: 700px;
+    
+}
+
+h2 {
+    padding: 10px;
+}
+
+#top {
+    width: 90%;
+}
+
+label {
+    padding-left: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
+input[type="text"]{
+    width: 350px;
+    border: 2px solid black;
+}
+
+input[type="submit"]{
+    display: block;
+    margin-left: 462px;
+    background-color: limegreen;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+}
+
+table {
+    width: 600px;
+    border: 2px solid black;
+}
+
+th, td {
+    border-right: 2px solid black;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even){
+    background-color: orange;
+}
