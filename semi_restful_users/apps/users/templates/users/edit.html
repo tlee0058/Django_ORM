@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <div id="container">
+            <h2>Edit user {{user.id}}</h2>
+            <form action="/users/{{user.id}}", method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" value="{{user.first_name}}" name="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" value="{{user.last_name}}" name="last_name">
+                <label for="email">Email:</label>
+                <input type="email" value="{{user.email}}" name="email">
+                <input type="submit" value="Create">
+            </form>
+            <a href="/users">Go Back</a>
+        </div>
+</body>
+</html>

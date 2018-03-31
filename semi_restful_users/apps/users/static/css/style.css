@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 970px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgrey;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+
+}
+thead, td {
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+}
+
+label, input {
+    display: block;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
